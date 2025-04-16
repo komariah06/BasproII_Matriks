@@ -1,6 +1,3 @@
-# BasproII_Matriks
-
-# BasproII_Matriks
 # Matriks 5x5 pertama
 nested_list_1 = [
     [4, 2, 7, 1, 5],
@@ -18,15 +15,8 @@ nested_list_2 = [
     [9, 6, 1, 4, 7]
 ]
 # Matriks 5X5 ketiga atau Hasil perkalian Matriks
-nested_list_3 = []
-for i in range(5):
-    baris = []
-    for j in range(5):
-        jumlah = 0
-        for k in range(5):
-            jumlah += nested_list_1[i][k] * nested_list_2[k][j]
-        baris.append(jumlah)
-    nested_list_3.append(baris)
-print("Hasil Perkalian Matriks:")
-for row in nested_list_3:
-    print(row)
+[89, 109, 56, 103, 108]
+[165, 141, 107, 123, 166]
+[75, 64, 46, 78, 81]
+[130, 117, 85, 142, 145]
+[115, 99, 76, 109, 72]
